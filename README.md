@@ -12,6 +12,7 @@ This is an order delivery tracking application that simplifies the process of tr
 
 - **Order History**: Keep a comprehensive archive of all your past orders, making it easy to review past deliveries.
 
+- **Real-Time Insights**: Receive real-time updates on estimated delivery times, based on historical data and the latest tracking information.
 
 Before you begin, ensure you have met the following requirements:
 
@@ -21,27 +22,20 @@ Before you begin, ensure you have met the following requirements:
 
 ### Installation
 
-This project is based on nodejs help to track the courier servies provider in India.
-
-You can use this project to build your courier tracking app as it return the response in json format.
+This project is based on Node.js and helps you track courier services providers in India. You can use this project to build your courier tracking app as it returns the response in JSON format.
 
 ### How to Start
 
--->You can download zip or git clone https://github.com/chitra2409/Order-Delivery-Tracking
+- You can download the zip file or clone the repository using Git: `git clone https://github.com/chitra2409/Order-Delivery-Tracking`
+- Install all dependencies by running the following command in your terminal: `npm install`
+- Start the application using either `yarn start` or `npm start`.
+- Open your web browser and visit the URL as mentioned below:
 
--->You can install all dependency by running command on bash(Terminal): npm install
+#### Example
 
--->Then run: yarn start or npm start
+If you want to track Ekart with Tracking ID: FMPC0279658213, you can visit the following URL in your browser: `localhost:3000/api/track/ekart/FMPC0279658213`. You will receive a JSON object with all the tracking details.
 
--->Then Open Browser and hit url mentioned below like
-
-###### Example
-
-If You want to track Ekart with Tracking Id: FMPC0279658213 then in chrome visit url localhost:3000/api/track/ekart/FMPC0279658213
-
-And then you will get Json Object with all tracking Details
-
-#### Current Supported Courier service and their endpoints
+#### Current Supported Courier Service Providers and Their Endpoints
 
 | Service Providers | Status  |
 | :---------------- | :-----: |
@@ -56,23 +50,15 @@ And then you will get Json Object with all tracking Details
 | DHL               | Working |
 | Maruti(Beta)      | Working |
 
-###### Tip: Directly insert tracking id in api end point instead of {TrackingId}
+**Tip**: You can directly insert the tracking ID in the API endpoint instead of `{TrackingId}`.
 
-###### API Respone Format
+#### API Response Format
 
-If your request is successfull then response will contain three keys i.e. location, detail, date.
-Check the example below.
+If your request is successful, the response will contain three keys: location, detail, and date. See the example below:
 
-Example
-
-```
-    {
-        "location": "BENGALURU",
-        "detail": "Shipment delivered",
-        "date": "26 Mar, 2018 12:50 hrs"
-    },
-```
-
-
-
-
+```json
+{
+    "location": "BENGALURU",
+    "detail": "Shipment delivered",
+    "date": "26 Mar, 2018 12:50 hrs"
+}
