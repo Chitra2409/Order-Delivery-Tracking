@@ -1,4 +1,4 @@
-# Indian Courier Tracking Service
+# Order Delivery Tracking
 
 ## Track your Parcels directly here
 
@@ -10,7 +10,7 @@ You can use this project to build your courier tracking app as it return the res
 
 ### How to Start
 
--->You can download zip or git clone https://github.com/rajatdhoot123/indian-courier-api.git
+-->You can download zip or git clone https://github.com/chitra2409/Order-Delivery-Tracking
 
 -->You can install all dependency by running command on bash(Terminal): npm install
 
@@ -56,12 +56,6 @@ Example
     },
 ```
 
-### API RUN OVER AFTERSHIP
 
-courier_provider = ekart | ecom | delhivery | xpressbees | bluedart | dtdc | gati | shadowfax
-
-trackingId = Your Parcel Tracking id like-> FMPC0279658213
-
-http://localhost:3000/api/track/{courier_provider}/{trackingId}
 
 
