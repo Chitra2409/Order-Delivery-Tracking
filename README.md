@@ -4,6 +4,23 @@
 
 ## Getting Started
 
+This is an order delivery tracking application that simplifies the process of tracking shipments from various delivery partners and comparing prices for pickup orders. This README provides a detailed overview of the project, installation instructions, and usage guidelines.
+
+## Features
+
+- **Unified Tracking Dashboard**: Track orders from multiple delivery partners in one place, eliminating the need to visit multiple websites or apps.
+
+- **Order History**: Keep a comprehensive archive of all your past orders, making it easy to review past deliveries.
+
+
+Before you begin, ensure you have met the following requirements:
+
+- **Node.js**: Install Node.js on your system. You can download it from [nodejs.org](https://nodejs.org/).
+
+- **Git**: You'll need Git for version control. Download it from [git-scm.com](https://git-scm.com/).
+
+### Installation
+
 This project is based on nodejs help to track the courier servies provider in India.
 
 You can use this project to build your courier tracking app as it return the response in json format.
@@ -20,7 +37,7 @@ You can use this project to build your courier tracking app as it return the res
 
 ###### Example
 
-If You want to track Ekart with Tracking Id: FMPC0279658213 then in chrome visit url localhost:5050/ekart/FMPC0279658213
+If You want to track Ekart with Tracking Id: FMPC0279658213 then in chrome visit url localhost:3000/api/track/ekart/FMPC0279658213
 
 And then you will get Json Object with all tracking Details
 
