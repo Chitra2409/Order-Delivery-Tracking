@@ -52,6 +52,8 @@ If you want to track Ekart with Tracking ID: FMPC0279658213, you can visit the f
 
 **Tip**: You can directly insert the tracking ID in the API endpoint instead of `{TrackingId}`.
 
+**Note** : There is a PPT document added in the repository that contained the detailed information about the application
+
 #### API Response Format
 
 If your request is successful, the response will contain three keys: location, detail, and date. See the example below:
@@ -64,4 +66,3 @@ If your request is successful, the response will contain three keys: location, d
 }
 
 
-**Note** : There is a PPT document added in the repository that contained the detailed information about the application
