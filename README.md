@@ -52,7 +52,7 @@ If you want to track Ekart with Tracking ID: FMPC0279658213, you can visit the f
 
 **Tip**: You can directly insert the tracking ID in the API endpoint instead of `{TrackingId}`.
 
-**Note** : There is a PPT document added in the repository that contained the detailed information about the application
+**Note** : There is a PPT document added in the repository that contained the detailed information about the application. Also this is an ongoing project and changes to it are still being made.
 
 #### API Response Format
 
